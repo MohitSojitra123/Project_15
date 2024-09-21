@@ -1,0 +1,404 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<style>
+    .co1{
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+
+    .co2{
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    }
+</style>
+<!-- Jquery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<!-- Jquery -->
+
+<!-- Remix Icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- Remix Icon -->
+<body>
+<!-- Naavigation Bar -->
+ <div class="nav_bar w-full h-[80px] border-b-2 border-gray-500 flex justify-between items-center px-[10px] md:px-[10px]">
+    
+    <div class="nav_left w-[200px] md:w-auto h-[100%] flex justify-start md:justify-center items-center">
+        <img src="./photo/log.svg" alt="" class="">
+    </div>
+
+    <div class="nav_left w-auto h-[100%] hidden   md:flex justify-center items-center gap-[40px] text-xl">
+        <div class="text-[#F6CA00]">Home</div>
+        <div class="">About us</div>
+        <div class="">Menu</div>
+        <div class="">Blog</div>
+        <div class="">Contact Us</div>  
+    </div>
+
+    <div class="menu_icon md:hidden flex justify-end items-center w-[100px] h-[100%] text-4xl">
+        <i class="ri-function-line"></i>
+    </div>
+ </div>
+<!-- Naavigation Bar -->
+
+<!-- Hero Section  -->
+<div class="w-full h-[80vh] sm:h-[40vh] md:h-[45vh] lg:h-[70vh] flex flex-col sm:flex-row">
+    <div class="w-full h-[60%] sm:w-[50%] md:w-[50%] lg:w-[50%] sm:h-[100%]  flex justify-center items-center  order-3 sm:order-2">
+
+        <div class="w-[100%] h-[100%] lg:w-[90%] lg:h-[90%] flex justify-center items-center flex-col px-[4px] sm:px-[0px] md:px-[5px] lg:px-[10px] space-y-2 sm:space-y-1 md:space-y-3 lg:space-y-3">
+            <div class="text-xl text-[#F4B41B] p-[4px_12px] sm:p-[2px_12px] md:p-[8px_12px] rounded-[5px] bg-[#FFF2D4] w-[150px] text-center">Fast Delivery</div>
+            <div class="text-[#3C3C3C] font-bold text-3xl sm:text-2xl md:text-3xl lg:text-5xl text-center">Discover Your Favourite Food and <span class="text-[#F6CA00]">Test Forever</span></div>
+            <div class="text-[#667085] text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+            <div class="btns flex justify-center items-center gap-[10px]">
+                <div class="btn1 text-white bg-[#F6CA00] rounded-[50px] p-[6px_12px] sm:p-[4px_10px] md:p-[8px_12px] md:text-xl">Get Started</div>
+                <div class="btn2 md:text-xl"><i class="ri-play-circle-line text-[#F6CA00]"></i> More Information</div>
+            </div>
+        </div>
+    
+    </div>
+    <div class="w-full h-[40%] sm:w-[50%] md:w-[50%] lg:w-[50%] sm:h-[100%] flex justify-center items-center order-2 sm:order-103">
+     <img src="./photo/hero_section.svg" class="flex justify-center items-center w-[100%] h-[100%] object-contain" alt="">
+    </div>
+  </div>
+<!-- Hero Section  -->
+
+<!-- section 1 -->
+<div class="w-full h-auto my-[15px] flex justify-center items-center flex-col space-y-2">
+
+    <div class="text-4xl font-bold text-center  text-[#3C3C3C]">How it works</div>
+    <div class="text-[#667085] text-center px-[5px] sm:px-[10px] md:px-[10px] md:w-[50%]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</div>
+</div>
+<!-- section 1 -->
+
+<!-- section 2 -->
+<div class="w-full h-auto my-[20px] flex justify-center flex-wrap items-center gap-[30px_35px]">
+
+    <div class="co1 w-[260px] h-[270px]  flex justify-center items-center flex-col px-[6px]">
+        <div class="img1 w-[100%] h-[110px]  flex justify-center items-center">
+            <img src="./photo/q1.svg" alt="">
+        </div>
+        <div class="content1 w-[100%] h-[150px]  flex justify-center items-center flex-col space-y-1">
+                   <div class="text-[#3C3C3C] font-bold text-3xl">Order Now</div>
+                   <div class="text-[#667085] text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</div>
+        </div>
+    </div>
+    <div class="co1 w-[260px] h-[270px]  flex justify-center items-center flex-col px-[6px]">
+        <div class="img1 w-[100%] h-[110px]  flex justify-center items-center">
+            <img src="./photo/q2.svg" alt="">
+        </div>
+        <div class="content1 w-[100%] h-[150px]  flex justify-center items-center flex-col space-y-1">
+                   <div class="text-[#3C3C3C] font-bold text-3xl">Get Delivery</div>
+                   <div class="text-[#667085] text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</div>
+        </div>
+    </div>
+    <div class="co1 w-[260px] h-[270px]  flex justify-center items-center flex-col px-[6px]">
+        <div class="img1 w-[100%] h-[110px]  flex justify-center items-center">
+            <img src="./photo/q3.svg" alt="">
+        </div>
+        <div class="content1 w-[100%] h-[150px]  flex justify-center items-center flex-col space-y-1">
+                   <div class="text-[#3C3C3C] font-bold text-3xl">Payment</div>
+                   <div class="text-[#667085] text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</div>
+        </div>
+    </div>
+</div>
+<!-- section 2 -->
+
+<!-- Section 3 -->
+<div class="w-full h-auto my-[25px] flex justify-center items-center flex-col space-y-2">
+
+    <div class="text-4xl font-bold text-center  text-[#3C3C3C]">Our Delicious Dish</div>
+    <div class="text-[#667085] text-center px-[5px] sm:px-[10px] md:px-[10px] md:w-[50%]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</div>
+</div>
+<!-- Section 3 -->
+
+<!-- Section 4 -->
+
+<div class="w-full lg:w-[95%] m-auto h-auto my-[20px] flex justify-center items-center gap-[30px_35px] flex-wrap">
+
+
+    <div class="co2 w-[270px] h-[320px]  flex justify-center items-center flex-col px-[10px] py-[5px]">
+        <div class="w-[100%] h-[150px]  flex justify-center items-end"><img src="./photo/p1.svg" class="flex justify-center items-end" alt=""></div>
+        <div class="w-[100%] h-[160px]  flex justify-center items-start flex-col space-y-1">
+            <div class="rat text-xl text-orange-400 flex justify-start items-center gap-[7px]">
+                <div class=""><i class="ri-star-fill"></i></div>
+                <div class=""><i class="ri-star-fill"></i></div>
+                <div class=""><i class="ri-star-fill"></i></div>
+                <div class=""><i class="ri-star-half-line"></i></div>
+                <!-- <div class="text-2xl"><i class="ri-star-s-line"></i></div> -->
+                <div class=""><i class="ri-star-line"></i></div>
+
+            </div>
+            <div class="text-[#3C3C3C] text-xl font-bold">New York Vega</div>
+            <div class="w-full text-[#667085] pb-[5px]">Lorem Ipsum is simply dummy text of the printing and typesetting....</div>
+            <div class="w-full foot flex justify-between items-center px-[10px]">
+                <div class="text-[#3C3C3C] text-xl font-bold">$7.10</div>
+                <div class="mini_card flex items-center justify-center gap-[10px]">
+                    <div class=""><img src="./photo/mc1.svg" alt="" class=""></div>
+                    <div class=""><img src="./photo/mc2.svg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="co2 w-[270px] h-[320px]  flex justify-center items-center flex-col px-[10px] py-[5px]">
+        <div class="w-[100%] h-[150px]  flex justify-center items-end"><img src="./photo/p2.svg" class="flex justify-center items-end" alt=""></div>
+        <div class="w-[100%] h-[160px]  flex justify-center items-start flex-col space-y-1">
+            <div class="rat text-xl text-orange-400 flex justify-start items-center gap-[7px]">
+                <div class=""><i class="ri-star-fill"></i></div>
+                <div class=""><i class="ri-star-fill"></i></div>
+                <div class=""><i class="ri-star-fill"></i></div>
+                <div class=""><i class="ri-star-half-line"></i></div>
+                <!-- <div class="text-2xl"><i class="ri-star-s-line"></i></div> -->
+                <div class=""><i class="ri-star-line"></i></div>
+
+            </div>
+            <div class="text-[#3C3C3C] text-xl font-bold">New York Vega</div>
+            <div class="w-full text-[#667085] pb-[5px]">Lorem Ipsum is simply dummy text of the printing and typesetting....</div>
+            <div class="w-full foot flex justify-between items-center px-[10px]">
+                <div class="text-[#3C3C3C] text-xl font-bold">$7.10</div>
+                <div class="mini_card flex items-center justify-center gap-[10px]">
+                    <div class=""><img src="./photo/mc1.svg" alt="" class=""></div>
+                    <div class=""><img src="./photo/mc2.svg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="co2 w-[270px] h-[320px]  flex justify-center items-center flex-col px-[10px] py-[5px]">
+        <div class="w-[100%] h-[150px]  flex justify-center items-end"><img src="./photo/p3.svg" class="flex justify-center items-end" alt=""></div>
+        <div class="w-[100%] h-[160px]  flex justify-center items-start flex-col space-y-1">
+            <div class="rat text-xl text-orange-400 flex justify-start items-center gap-[7px]">
+                <div class=""><i class="ri-star-fill"></i></div>
+                <div class=""><i class="ri-star-fill"></i></div>
+                <div class=""><i class="ri-star-fill"></i></div>
+                <div class=""><i class="ri-star-half-line"></i></div>
+                <!-- <div class="text-2xl"><i class="ri-star-s-line"></i></div> -->
+                <div class=""><i class="ri-star-line"></i></div>
+
+            </div>
+            <div class="text-[#3C3C3C] text-xl font-bold">New York Vega</div>
+            <div class="w-full text-[#667085] pb-[5px]">Lorem Ipsum is simply dummy text of the printing and typesetting....</div>
+            <div class="w-full foot flex justify-between items-center px-[10px]">
+                <div class="text-[#3C3C3C] text-xl font-bold">$7.10</div>
+                <div class="mini_card flex items-center justify-center gap-[10px]">
+                    <div class=""><img src="./photo/mc1.svg" alt="" class=""></div>
+                    <div class=""><img src="./photo/mc2.svg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="co2 w-[270px] h-[320px]  flex justify-center items-center flex-col px-[10px] py-[5px]">
+        <div class="w-[100%] h-[150px]  flex justify-center items-end"><img src="./photo/p4.svg" class="flex justify-center items-end" alt=""></div>
+        <div class="w-[100%] h-[160px]  flex justify-center items-start flex-col space-y-1">
+            <div class="rat text-xl text-orange-400 flex justify-start items-center gap-[7px]">
+                <div class=""><i class="ri-star-fill"></i></div>
+                <div class=""><i class="ri-star-fill"></i></div>
+                <div class=""><i class="ri-star-fill"></i></div>
+                <div class=""><i class="ri-star-half-line"></i></div>
+                <!-- <div class="text-2xl"><i class="ri-star-s-line"></i></div> -->
+                <div class=""><i class="ri-star-line"></i></div>
+
+            </div>
+            <div class="text-[#3C3C3C] text-xl font-bold">New York Vega</div>
+            <div class="w-full text-[#667085] pb-[5px]">Lorem Ipsum is simply dummy text of the printing and typesetting....</div>
+            <div class="w-full foot flex justify-between items-center px-[10px]">
+                <div class="text-[#3C3C3C] text-xl font-bold">$7.10</div>
+                <div class="mini_card flex items-center justify-center gap-[10px]">
+                    <div class=""><img src="./photo/mc1.svg" alt="" class=""></div>
+                    <div class=""><img src="./photo/mc2.svg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="co2 w-[270px] h-[320px]  flex justify-center items-center flex-col px-[10px] py-[5px]">
+        <div class="w-[100%] h-[150px]  flex justify-center items-end"><img src="./photo/p5.svg" class="flex justify-center items-end" alt=""></div>
+        <div class="w-[100%] h-[160px]  flex justify-center items-start flex-col space-y-1">
+            <div class="rat text-xl text-orange-400 flex justify-start items-center gap-[7px]">
+                <div class=""><i class="ri-star-fill"></i></div>
+                <div class=""><i class="ri-star-fill"></i></div>
+                <div class=""><i class="ri-star-fill"></i></div>
+                <div class=""><i class="ri-star-half-line"></i></div>
+                <!-- <div class="text-2xl"><i class="ri-star-s-line"></i></div> -->
+                <div class=""><i class="ri-star-line"></i></div>
+
+            </div>
+            <div class="text-[#3C3C3C] text-xl font-bold">New York Vega</div>
+            <div class="w-full text-[#667085] pb-[5px]">Lorem Ipsum is simply dummy text of the printing and typesetting....</div>
+            <div class="w-full foot flex justify-between items-center px-[10px]">
+                <div class="text-[#3C3C3C] text-xl font-bold">$7.10</div>
+                <div class="mini_card flex items-center justify-center gap-[10px]">
+                    <div class=""><img src="./photo/mc1.svg" alt="" class=""></div>
+                    <div class=""><img src="./photo/mc2.svg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="co2 w-[270px] h-[320px]  flex justify-center items-center flex-col px-[10px] py-[5px]">
+        <div class="w-[100%] h-[150px]  flex justify-center items-end"><img src="./photo/p6.svg" class="flex justify-center items-end" alt=""></div>
+        <div class="w-[100%] h-[160px]  flex justify-center items-start flex-col space-y-1">
+            <div class="rat text-xl text-orange-400 flex justify-start items-center gap-[7px]">
+                <div class=""><i class="ri-star-fill"></i></div>
+                <div class=""><i class="ri-star-fill"></i></div>
+                <div class=""><i class="ri-star-fill"></i></div>
+                <div class=""><i class="ri-star-half-line"></i></div>
+                <!-- <div class="text-2xl"><i class="ri-star-s-line"></i></div> -->
+                <div class=""><i class="ri-star-line"></i></div>
+
+            </div>
+            <div class="text-[#3C3C3C] text-xl font-bold">New York Vega</div>
+            <div class="w-full text-[#667085] pb-[5px]">Lorem Ipsum is simply dummy text of the printing and typesetting....</div>
+            <div class="w-full foot flex justify-between items-center px-[10px]">
+                <div class="text-[#3C3C3C] text-xl font-bold">$7.10</div>
+                <div class="mini_card flex items-center justify-center gap-[10px]">
+                    <div class=""><img src="./photo/mc1.svg" alt="" class=""></div>
+                    <div class=""><img src="./photo/mc2.svg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="co2 w-[270px] h-[320px]  flex justify-center items-center flex-col px-[10px] py-[5px]">
+        <div class="w-[100%] h-[150px]  flex justify-center items-end"><img src="./photo/p7.svg" class="flex justify-center items-end" alt=""></div>
+        <div class="w-[100%] h-[160px]  flex justify-center items-start flex-col space-y-1">
+            <div class="rat text-xl text-orange-400 flex justify-start items-center gap-[7px]">
+                <div class=""><i class="ri-star-fill"></i></div>
+                <div class=""><i class="ri-star-fill"></i></div>
+                <div class=""><i class="ri-star-fill"></i></div>
+                <div class=""><i class="ri-star-half-line"></i></div>
+                <!-- <div class="text-2xl"><i class="ri-star-s-line"></i></div> -->
+                <div class=""><i class="ri-star-line"></i></div>
+
+            </div>
+            <div class="text-[#3C3C3C] text-xl font-bold">New York Vega</div>
+            <div class="w-full text-[#667085] pb-[5px]">Lorem Ipsum is simply dummy text of the printing and typesetting....</div>
+            <div class="w-full foot flex justify-between items-center px-[10px]">
+                <div class="text-[#3C3C3C] text-xl font-bold">$7.10</div>
+                <div class="mini_card flex items-center justify-center gap-[10px]">
+                    <div class=""><img src="./photo/mc1.svg" alt="" class=""></div>
+                    <div class=""><img src="./photo/mc2.svg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="co2 w-[270px] h-[320px]  flex justify-center items-center flex-col px-[10px] py-[5px]">
+        <div class="w-[100%] h-[150px]  flex justify-center items-end"><img src="./photo/p8.svg" class="flex justify-center items-end" alt=""></div>
+        <div class="w-[100%] h-[160px]  flex justify-center items-start flex-col space-y-1">
+            <div class="rat text-xl text-orange-400 flex justify-start items-center gap-[7px]">
+                <div class=""><i class="ri-star-fill"></i></div>
+                <div class=""><i class="ri-star-fill"></i></div>
+                <div class=""><i class="ri-star-fill"></i></div>
+                <div class=""><i class="ri-star-half-line"></i></div>
+                 <div class=""><i class="ri-star-line"></i></div>
+            </div>
+            <div class="text-[#3C3C3C] text-xl font-bold">New York Vega</div>
+            <div class="w-full text-[#667085] pb-[5px]">Lorem Ipsum is simply dummy text of the printing and typesetting....</div>
+            <div class="w-full foot flex justify-between items-center px-[10px]">
+                <div class="text-[#3C3C3C] text-xl font-bold">$7.10</div>
+                <div class="mini_card flex items-center justify-center gap-[10px]">
+                    <div class=""><img src="./photo/mc1.svg" alt="" class=""></div>
+                    <div class=""><img src="./photo/mc2.svg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Section 4 -->
+
+
+<!-- Section 5 -->
+ <div class="w-full h-auto my-[30px] flex justify-center items-center flex-wrap gap-[30px]">
+
+    <div class="w-[340px] md:w-auto h-auto bg-[#dad4c7] rounded-[40px] flex justify-center items-center flex-wrap gap-[30px]">
+
+        
+        <div class="w-[340px] h-[400px] flex justify-center items-center">
+            <img src="./photo/section5.svg" class="w-[100%] h-[100%] object-contain" alt="">
+        </div>
+
+        <div class="w-[340px] h-[400px] flex justify-center items-start  flex-col px-[10px] space-y-4">
+          <div class="text-xl text-[#EF9737] bg-[#FFEFC8] rounded-[10px] w-[120px] px-[10px] py-[4px]">Our Target</div>
+          <div class="text-2xl font-bold text-[#535353]">We Earn Your Trust and are Diligent in Your Case</div>
+          <div class="text-[#667085]">
+            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </div>
+          <div class="text-white bg-[#FCC647] px-[10px] py-[6px] rounded-[10px]">Order Now</div>
+        </div>
+    </div>
+</div>
+<!-- Section 5 -->
+
+<!-- Section 6 -->
+<div class="w-full h-auto my-[20px]  flex justify-center items-center flex-wrap gap-[0px_30px]">
+    <div class="w-[340px] md:w-auto h-auto bg-[#dad4c7] rounded-[40px] flex justify-center items-center flex-wrap gap-[30px]">
+
+    <div class="w-[340px] h-[370px] flex justify-center items-center flex-col pl-[20px] space-y-5 order-4 md:order-3">
+
+        <div class="text-[#3C3C3C] text-3xl font-bold">To Get 15% Discount Download The App</div>
+        <div class="text-[#667085]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+        <div class="w-full imgs flex justify-center items-center gap-[20px]">
+            <div class=""><img src="./photo/wq1.svg" alt=""></div>
+            <div class=""><img src="./photo/wq2.svg" alt=""></div>
+        </div>
+
+    </div>
+
+    <div class="w-[340px] h-[370px] flex justify-center items-center order-3 md:order-4">
+        <img src="./photo/Section6.svg" class="w-[80%] h-[80%]" alt="">
+    </div>
+</div>
+</div>
+<!-- Section 6 -->
+
+<!-- Section 7 -->
+ <div class="w-full h-auto flex justify-center items-center gap-[20px] flex-wrap my-[20px]">
+   
+    <div class="w-[300px] h-[113px] py-[20px] rounded-[20px] bg-orange-200 flex justify-center items-center flex-col gap-[10px]">
+        <div class=""><img src="./photo/Call.svg" class="w-[60px] h-[60px]" alt=""></div>
+        <div class="text-[20px] font-bold">+880 321 655 9985</div>
+    </div>
+
+    <div class="w-[300px] h-[113px] rounded-[20px] py-[20px] bg-orange-200 flex justify-center items-center flex-col gap-[10px]">
+        <div class=""><img src="./photo/Email Icon.svg" class="w-[60px] h-[60px]" alt=""></div>
+        <div class="text-[20px] font-bold">info@youremail.com</div>
+    </div>
+ </div>
+<!-- Section 7 -->
+
+<!-- Section 8 -->
+ <div class="w-full h-auto bg-[#232233] flex justify-center items-center flex-wrap gap-[20px]">
+
+    <div class="w-[320px] h-[210px]  flex justify-start pt-[10px] items-center flex-col px-[10px] space-y-3">
+        <div class=""><img src="./photo/logo123.svg" alt=""></div>
+        <div class="text-[#FFFFFF] text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+        <div class="flex justify-center items-center gap-[10px] text-2xl">
+            <div class=""><i class="ri-facebook-fill"></i></div>
+            <div class="w-[2px] h-[25px] bg-white"></div>
+            <div class=""><i class="ri-instagram-line"></i></div>
+            <div class="w-[2px] h-[25px] bg-white"></div>
+            <div class=""><i class="ri-twitter-fill"></i></div>
+            <div class="w-[2px] h-[25px] bg-white"></div>
+            <div class=""><i class="ri-youtube-fill"></i></div>
+        </div>
+    </div>
+    
+    <div class="w-[200px] h-[210px]  flex justify-start pt-[10px] items-center flex-col text-[#FFFFFF] space-y-3 text-xl">
+       <div class="text-2xl font-bold text-white">Quick link</div>
+       <div class="">About Us</div>
+       <div class="">Menu</div>
+       <div class="">Blog</div>
+       <div class="">Conatct Us</div>
+    </div>
+
+
+    <div class="w-[320px] h-[210px]  flex justify-start pt-[10px] items-center flex-col px-[10px] space-y-3">
+        <div class="text-2xl font-bold text-white">News letter</div>
+        <div class="text-xl text-white text-center">Subscribe our newsletter to get our latest update & news</div>
+        <div class="w-[90%] h-[40px] bg-white flex justify-between items-center px-[10px]">
+               <div class="w-[75%] h-[80%]"><input type="text" class="w-[100%] h-[100%] pl-[10px]" placeholder="Your email address"></div>
+               <div class="w-[20%] h-[80%] bg-[#FEB918] rounded-[5px] flex justify-center items-center"><img src="./photo/send_btn.svg" class="w-[90%] h-[90%]" alt="" class=""></div>
+        </div>
+    </div>
+ </div>
+<!-- Section 8 -->
+</body>
+</html>
