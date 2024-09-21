@@ -41,6 +41,20 @@
         <i class="ri-function-line"></i>
     </div>
  </div>
+
+ <div class="side_nav w-[100%] h-auto">
+
+
+       <div class="w-full h-auto py-[10px] border-b-2 border-black flex justify-center items-center text-[17px] hover:bg-black hover:text-white">Home</div>
+        <div class="w-full h-auto py-[10px] border-b-2 border-black flex justify-center items-center text-[17px] hover:bg-black hover:text-white">About us</div>
+        <div class="w-full h-auto py-[10px] border-b-2 border-black flex justify-center items-center text-[17px] hover:bg-black hover:text-white">Menu</div>
+        <div class="w-full h-auto py-[10px] border-b-2 border-black flex justify-center items-center text-[17px] hover:bg-black hover:text-white">Blog</div>
+        <div class="w-full h-auto py-[10px] border-b-2 border-black flex justify-center items-center text-[17px] hover:bg-black hover:text-white">Contact Us</div>  
+
+
+
+ </div>
+
 <!-- Naavigation Bar -->
 
 <!-- Hero Section  -->
@@ -367,21 +381,21 @@
 <!-- Section 8 -->
  <div class="w-full h-auto bg-[#232233] flex justify-center items-center flex-wrap gap-[20px]">
 
-    <div class="w-[320px] h-[210px]  flex justify-start pt-[10px] items-center flex-col px-[10px] space-y-3">
+    <div class="w-full sm:w-[320px] h-[210px]  flex justify-start pt-[10px] items-center flex-col px-[10px] space-y-3">
         <div class=""><img src="./photo/logo123.svg" alt=""></div>
         <div class="text-[#FFFFFF] text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
         <div class="flex justify-center items-center gap-[10px] text-2xl">
-            <div class=""><i class="ri-facebook-fill"></i></div>
+            <div class=""><i class="ri-facebook-fill text-white"></i></div>
             <div class="w-[2px] h-[25px] bg-white"></div>
-            <div class=""><i class="ri-instagram-line"></i></div>
+            <div class=""><i class="ri-instagram-line text-white"></i></div>
             <div class="w-[2px] h-[25px] bg-white"></div>
-            <div class=""><i class="ri-twitter-fill"></i></div>
+            <div class=""><i class="ri-twitter-fill text-white"></i></div>
             <div class="w-[2px] h-[25px] bg-white"></div>
-            <div class=""><i class="ri-youtube-fill"></i></div>
+            <div class=""><i class="ri-youtube-fill text-white"></i></div>
         </div>
     </div>
     
-    <div class="w-[200px] h-[210px]  flex justify-start pt-[10px] items-center flex-col text-[#FFFFFF] space-y-3 text-xl">
+    <div class="w-full sm:w-[200px] h-[210px]  flex justify-start pt-[10px] items-center flex-col text-[#FFFFFF] space-y-3 text-xl">
        <div class="text-2xl font-bold text-white">Quick link</div>
        <div class="">About Us</div>
        <div class="">Menu</div>
@@ -390,7 +404,7 @@
     </div>
 
 
-    <div class="w-[320px] h-[210px]  flex justify-start pt-[10px] items-center flex-col px-[10px] space-y-3">
+    <div class="w-full sm:w-[320px] h-[210px]  flex justify-start pt-[10px] items-center flex-col px-[10px] space-y-3">
         <div class="text-2xl font-bold text-white">News letter</div>
         <div class="text-xl text-white text-center">Subscribe our newsletter to get our latest update & news</div>
         <div class="w-[90%] h-[40px] bg-white flex justify-between items-center px-[10px]">
@@ -401,4 +415,20 @@
  </div>
 <!-- Section 8 -->
 </body>
+
+<script>
+
+  jQuery.noConflict();
+  jQuery(document).ready(function($){
+
+    $(".side_nav").hide();
+
+    $(".ri-function-line").click(function(){
+        $(".side_nav").slideToggle(300);
+    })
+
+  })
+
+</script>
+
 </html>
